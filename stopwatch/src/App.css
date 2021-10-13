@@ -1,0 +1,44 @@
+.App {
+  margin: 50px auto 10px auto;
+  padding: 20px;
+  width: 600px;
+  border-color: white;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px 1px rgba(228, 74, 3, 0.2);
+}
+
+.display {
+  margin: 25px ;
+  margin-bottom: 25px;
+  height: 50px;
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  align-items: center;
+  position: relative;
+  left: 0;
+  background-color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buttons button {
+  margin-left: 10px;
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.buttons__start {
+  background-color: lightgreen;
+}
+.buttons__stop {
+  background-color: tomato;
+}
+.buttons__wait {
+  background-color: lightyellow;
+}
+.buttons__reset {
+  background-color: grey;
+}
